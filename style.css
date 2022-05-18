@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header{
+    background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    width: 100%;
+    border-bottom-left-radius: 100px;
+    padding: 0 10%;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 2rem 0 1.5rem 0;
+    align-items: center;
+}
+
+.navbrand{
+    flex: 1;
+    font-family: 'Overpass';
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.navigation{
+    flex: 2;
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.navigation ul{
+    display: flex;
+}
+
+.nav-item{
+    list-style: none;
+    flex-basis: 5rem;
+}
+
+.profile{
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn{
+    flex-basis: 8rem;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-weight: 500;
+    text-align: center;
+    padding: .8rem 1rem;
+    border-radius: 50px;
+}
+
+.signUp{
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+}
+
+.login{
+    color: white;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text{
+    text-align: center;
+    padding: 5rem;
+}
+
+.heading-primary{
+    font-family: 'Overpass';
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.header-description{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.header-btn{
+    flex-basis: 8rem;
+    font-family: Ubuntu;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-1{
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+    margin-right: .5rem;
+}
+
+.btn-2{
+    border: 1px solid white;
+    color:white;
+    margin-left: .5rem;
+}
