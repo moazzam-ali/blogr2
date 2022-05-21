@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Overpass:wght@300;600&display=swap');
@@ -15,113 +15,133 @@
   <title>Blogr</title>
 </head>
 <body>
-  <div class="header">
-    <nav class="navbar">
-      <div class="navbrand">Blogr</div>
-      <div class="navigation">
-        <ul>
-          <li class="nav-item">Product</li>
-          <li class="nav-item">Company</li>
-          <li class="nav-item">Connect</li>
-        </ul>
-      </div>
-      <div class="profile">
-        <a class="login btn" href="#">Login</a>
-        <a class="signUp btn" href="#">Sign Up</a>
-      </div>
-    </nav>
-    <div class="title">
-      <div class="header-text">
-        <h1 class="heading-primary"> A modern publishing platform</h1>
-        <h6 class="header-description">Grow your audience and build your online brand</h6>
-      </div>
-      <div class="header-btn">
-        <a class="btn-1 btn" href="#">Start For Free</a>
-        <a class="btn-2 btn" href="#">Learn More</a>
+
+  <!-- Header Section-->  
+
+  <section class="header">
+    <div class="bg-image">
+      <nav class="navbar">
+        <div class="navbrand">Blogr</div>
+        <div class="navigation">
+          <ul>
+            <li class="nav-item">Product</li>
+            <li class="nav-item">Company</li>
+            <li class="nav-item">Connect</li>
+          </ul>
+        </div>
+        <div class="profile">
+          <a class="login btn" href="#">Login</a>
+          <a class="signUp btn" href="#">Sign Up</a>
+        </div>
+      </nav>
+      <div class="title">
+        <div class="header-text">
+          <h1 class="heading-primary"> A modern publishing platform</h1>
+          <h6 class="header-description">Grow your audience and build your online brand</h6>
+        </div>
+        <div class="header-btn">
+          <a class="btn-1 btn" href="#">Start For Free</a>
+          <a class="btn-2 btn" href="#">Learn More</a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container-main">
+  </section>
 
-  </div>
-  <div class="footer"></div>
+  <!--Section 1-->
+  <main>
+    <section class="main1">
+      <div class="main1--heading">
+        <h2 class="heading-secondary">Designed for the future</h2>
+      </div>
+      <div class="main1--body">
+        <div class="main1--text">
+          <h3 class="heading-tertiary">Introducing an extensible editor</h3>
+          <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+            change the looks of a blog.
+          </p>
+          <h3 class="heading-tertiary">Robust content management</h3>
+          <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+        <div class="main1--image">
+          <img class="img1" src="images/illustration-editor-desktop.svg" alt="illustration-editor-desktop">
+        </div>
+      </div>
+    </section>
+
+      <!--Section 2-->
+    <section class="main2">
+      <div class="bg-main2">
+      <div class="main2--images">
+        <img class="mobiles" src="images/illustration-phones.svg" alt="phones">
+      </div>
+      <div class="main2--text">
+        <h2 class="heading-secondary">State of the Art Infrastructure</h2>
+        <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </div>
+    </div>
+    </section>
+
+      <!--Section 3-->
+    <section class="main3">
+      <div class="main3--image">
+        <img class="image-laptop" src="images/illustration-laptop-desktop.svg" alt="illustration-laptop-desktop">
+      </div>
+      <div class="main3--text">
+        <h3 class="heading-tertiary">Free, open, simple</h3>
+        <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+          features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+        </p>
+        <h3 class="heading-tertiary">Powerful tooling</h3>
+        <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+          capable of producing even the most complicated sites.
+        </p>
+      </div>
+    </section>
+
+
+      <!--Footer-->
+  <section class="footer">
+    <div class="row">
+      <div class="col-1">
+        <h1 class="navbrand">Blogr</h1>
+      </div>
+      <div class="col-2">
+        <ul class="menu">
+          <li class="menu-head"><a href="#">Product</a></li>
+          <li class="menu-item"><a href="">Overview</a></li>
+          <li class="menu-item"><a href="">Pricing</a></li>
+          <li class="menu-item"><a href="">Marketplace</a></li>
+          <li class="menu-item"><a href="">Features</a></li>
+          <li class="menu-item"><a href="">Integrations</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul class="menu">
+          <li class="menu-head"><a href="#">Company</a></li>
+          <li class="menu-item"><a href="">About</a></li>
+          <li class="menu-item"><a href="">Team</a></li>
+          <li class="menu-item"><a href="">Blog</a></li>
+          <li class="menu-item"><a href="">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul class="menu">
+          <li class="menu-head"><a href="#">Connect</a></li>
+          <li class="menu-item"><a href="">Contact</a></li>
+          <li class="menu-item"><a href="">Newsletter</a></li>
+          <li class="menu-item"><a href="">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
 </body>
-</html>a
+</html>
 
 
-<!-- 
-Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
-
-  A modern publishing platform
-  Grow your audience and build your online brand
-
-  Start for Free
-  Learn More
-
-  Designed for the future
-
-  Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-  change the looks of a blog.
-
-  Robust content management
-  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-  
-  Contact
-  Newsletter
-  LinkedIn -->

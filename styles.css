@@ -1,0 +1,331 @@
+/*------- Properites Reset-------*/
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+/*------- Header Section -------*/
+.header{
+    background-image:linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-bottom-left-radius: 100px;
+    color: white;
+    overflow: hidden;;
+}
+
+.bg-image{
+    background-image: url(images/bg-pattern-intro-desktop.svg);
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position: right -53rem top -67rem;
+}
+
+.navbar{
+    display: flex;
+
+    width: 100%;
+    position: relative;
+    padding: 2rem 10% 1.5rem ;
+    align-items: center;
+}
+
+.navbrand{
+    flex: 1;
+    font-family: 'Overpass';
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.navigation{
+    flex: 2;
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.navigation ul{
+    display: flex;
+}
+
+.nav-item{
+    list-style: none;
+    flex-basis: 5rem;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+}
+
+.profile{
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn, .btn:visited, .btn:link{
+    flex-basis: 8rem;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-weight: 500;
+    text-align: center;
+    padding: .7rem .9rem;
+    border-radius: 50px;
+    transition: all .2s;
+}
+
+.btn:hover{
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.signUp{
+    background-color: #FCFFE7;
+    color: hsl(353, 100%, 62%);
+}
+
+.login{
+    color: white;
+    margin-right: .5rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.header-text{
+    text-align: center;
+    padding: 5rem;
+}
+
+.heading-primary{
+    font-family: 'Overpass';
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.header-description{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.header-btn{
+    flex-basis: 8rem;
+    font-family: Ubuntu;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-1{
+    background-color: #FCFFE7;
+    color: hsl(353, 100%, 62%);
+    margin-right: .5rem;
+}
+
+.btn-2{
+    border: 1px solid white;
+    color:white;
+    margin-left: .5rem;
+}
+
+.btn-2:hover{
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+}
+
+/* Main Body*/
+
+.container-main{
+    background-color: green;
+    overflow: hidden;
+}
+
+/* Main Body Section 1*/
+.main1{
+    overflow-x: hidden;
+    padding-bottom: 5rem;
+}
+
+.main1--heading{
+    margin: 8rem 0 5rem 5rem;
+    text-align: center;
+}
+
+.heading-secondary{
+    font-family: 'Overpass';
+    font-size: 2.5rem;
+    font-weight: 600;
+    color:  hsl(208, 49%, 24%);
+    margin-bottom: 2rem;
+}
+
+.heading-tertiary{
+    font-family: "Overpass";
+    font-weight: 600;
+    font-size: 2rem;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 1.2rem;
+}
+
+p{
+    font-family: 'Overpass';
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:  hsl(207, 13%, 34%);
+    margin-bottom: 3.5rem;
+    line-height: 1.9rem;
+}
+
+.main1--body{
+    display: flex;
+}
+
+.main1--text{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0% 5% 10%;
+    flex: 1;
+}
+
+.main1--image{
+    display: flex;
+    justify-content: end;
+    flex: 1.5;
+    position: relative;
+}
+
+.img1{
+    width: 1000px;
+    position: absolute;
+    top: -27%;
+    right: -290px;
+}
+
+/* Main Body Section 2*/
+
+.main2{
+
+    background-image:linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 8rem;
+}
+
+.bg-main2{
+    display: flex;
+    background-image: url(images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: right 44rem top -33rem;
+    height: 50vh;
+}
+
+.main2--text{
+    align-self: center;
+    width: 50%;
+    padding-right: 10%;
+}
+
+.main2--text .heading-secondary{
+    color: hsl(0, 0%, 100%);
+}
+
+.main2--text p{
+    color: hsl(240, 2%, 79%);
+}
+.main2--images{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.mobiles{
+    align-self: center;
+    margin-top: 3rem;
+}
+
+
+/* Main Body Section 3*/
+
+.main3{
+    display: flex;
+    margin: 20rem 0 15rem;
+    align-items: center;
+}
+
+.main3--image{
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+
+.image-laptop{
+    margin-top: 3rem;
+    position: absolute;
+    top: -28rem;
+    left: -17rem;
+}
+
+.main3--text{
+    align-items: center;
+    width: 50%;
+    padding-right: 10%;
+}
+
+
+/* Footer*/
+.footer{
+    background-color: hsl(240, 10%, 16%);
+    padding: 3rem 20% 5rem 10%;
+    border-top-right-radius: 100px;
+    color: hsl(0, 0%, 100%);
+}
+
+.row{
+    display: flex;
+}
+.col-1{
+    flex: 1.5;
+}
+.col-2, .col-3, .col-4{
+    flex: 1;
+    margin-top: rem;
+}
+
+.menu li {
+    list-style: none;
+    font-family: "ubuntu";
+}
+.menu li a{
+    text-decoration: none;
+    color:hsl(240, 2%, 79%);
+}
+
+.menu-head{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 2rem; 
+}
+
+.menu-item{
+    font-size: .8rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
